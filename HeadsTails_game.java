@@ -2,7 +2,8 @@ class HeadsTails_game{
   public static void main(String[] args){
     int head = 0;
     int tail = 0;
-    
+
+    System.out.println("Tossing a coin...");
     for(int i = 1 ; i <= 3 ; i++){
       int res = new java.util.Random().nextInt(2);
       System.out.print("Round " + i + ": ");
