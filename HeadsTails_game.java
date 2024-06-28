@@ -1,7 +1,14 @@
+import java.util.Scanner;
+
 class HeadsTails_game{
   public static void main(String[] args){
     int head = 0;
     int tail = 0;
+
+    System.out.println("Who are you?");
+    Scanner sc = new Scanner(System.in);
+    String name = sc.next();
+    System.out.println("Hello, " + name + "!");
 
     System.out.println("Tossing a coin...");
     for(int i = 1 ; i <= 3 ; i++){
